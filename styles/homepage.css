@@ -1,0 +1,53 @@
+.p1 {
+  color: #222;
+  margin-top: 25px;
+  font-size: larger;
+  line-height: 25px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-heading {
+  font-size: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Air-head {
+  color: #ed2d34;
+}
+
+.home-details {
+  width: 33vw;
+  height: 35vh;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  font-size: 16px;
+}
+
+.btn {
+  color: #222;
+  border: 2px solid #222;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 10%;
+  width: 17vh;
+  text-decoration-line: none;
+}
+
+.btn:hover {
+  background-color: #ed2d34;
+  color: aliceblue;
+  border-color: #ed2d34;
+  transition: 0.6s;
+}

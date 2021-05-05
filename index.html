@@ -60,22 +60,40 @@
     />
 
     <!-- My CSS -->
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/homepage.css" />
+    <script
+      src="https://kit.fontawesome.com/d85f3a3d4a.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div id="fullpage">
       <div class="section">
         <!-- Add classes where necessary and style the section appropriately -->
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
         <div id="homePage" class="content">
           <div class="home-details">
-            <h1 class="home-heading">Premium Air Max Sneakers</h1>
-            <p>
+            <h1 class="home-heading">
+              Premium <span class="Air-head">Air Max Sneakers</span>
+            </h1>
+            <p class="p1">
               Lorem ipsum is simply dummy text of the printing and typesetting.
               Lorem Ipsum has been the industry’s standard dummy.
             </p>
             <a href="#products" class="btn">View More</a>
           </div>
-          <img src="./images/sneaker1.png" alt="Sneaker" data-tilt />
+          <img
+            class="img"
+            src="./images/sneaker1.png"
+            alt="Sneaker"
+            data-tilt
+          />
         </div>
       </div>
       <div class="section">
@@ -221,6 +239,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
 
     <!-- My Javascript File -->
-    <script src="./scripts.js"></script>
+    <script src="./scripts/scripts.js"></script>
   </body>
 </html>
