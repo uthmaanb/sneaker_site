@@ -5,7 +5,7 @@
   line-height: 25px;
 }
 
-.content {
+#homePage {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

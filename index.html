@@ -62,21 +62,22 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/homepage.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
     <script
       src="https://kit.fontawesome.com/d85f3a3d4a.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <div class="icons">
+      <a href="#"><i class="fab fa-twitter icon"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in icon"></i></a>
+      <a href="#"> <i class="fab fa-instagram icon"></i> </a>
+      <a href="#"> <i class="fab fa-facebook-f icon"></i> </a>
+    </div>
     <div id="fullpage">
       <div class="section">
         <!-- Add classes where necessary and style the section appropriately -->
-        <div class="icons">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin-in"></i>
-        </div>
         <div id="homePage" class="content">
           <div class="home-details">
             <h1 class="home-heading">
@@ -163,21 +164,54 @@
       <div class="section">
         <div id="contactPage" class="content">
           <!-- Page header -->
-          <header class="page-header-container">
-            <h2 class="page-heading">Questions?</h2>
-            <h3 class="page-subtitle">Let's get in touch</h3>
-          </header>
-          <!-- Contact Details -->
-          <div class="contact-details-container">
-            <h4 class="contact-details-heading">Warehouse Location</h4>
-            <p class="contact-details-description">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered .
-            </p>
-            <!-- Please insert location, contact numbers and email elements here -->
+          <div class="box1">
+            <header class="page-header-container">
+              <h2 class="page-heading">Questions?</h2>
+              <h3 class="page-subtitle">Let's get in touch</h3>
+            </header>
+
+            <!-- Contact Details -->
+            <div class="contact-details-container">
+              <h4 class="contact-details-heading">Warehouse Location</h4>
+              <p class="contact-details-description">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered .
+              </p>
+
+              <!-- Please insert location, contact numbers and email elements here -->
+              <div class="con-info">
+                <div class="con-info-sub">
+                  <i class="fas fa-map-marker-alt con-info-icon"> </i>
+                  <p class="con-info-text">
+                    123 Park Avenue, New York, United States
+                  </p>
+                </div>
+                <div class="con-info-sub">
+                  <i class="fas fa-phone-volume con-info-icon"></i>
+                  <p class="con-info-text">+1 631 1234 5678 +1 631 1234 5678</p>
+                </div>
+                <div class="con-info-sub">
+                  <i class="fas fa-paper-plane con-info-icon"></i>
+                  <p class="con-info-text">email@website.com</p>
+                </div>
+              </div>
+
+              <div class="icons-contact">
+                <a href="#"><i class="fab fa-twitter icon_btm"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in icon_btm"></i></a>
+                <a href="#"><i class="fab fa-instagram icon_btm"></i></a>
+                <a href="#"><i class="fab fa-facebook-f icon_btm"></i></a>
+              </div>
+            </div>
           </div>
+
           <!-- Create new form on FORMSPREE and insert ULR in the ACTION ATTRIBUTE -->
-          <form id="contact-form">
+
+          <form
+            id="contact-form"
+            action="https://formspree.io/f/mqkwejre"
+            method="POST"
+          >
             <input
               class="contact-input"
               type="text"
@@ -203,7 +237,7 @@
               required
             />
             <textarea
-              class="contact-input"
+              class="contact-input-msg"
               name="message"
               id="message"
               placeholder="Type your message here"

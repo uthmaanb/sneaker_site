@@ -110,6 +110,18 @@ body {
   position: fixed;
   top: 0;
   right: 0;
-  gap: 40px;
+  gap: 30px;
   font-size: large;
+}
+
+.icon {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.icon:hover {
+  background-color: #ed2d34;
+  color: aliceblue;
 }
