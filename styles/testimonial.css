@@ -1,0 +1,91 @@
+.testimonial {
+  visibility: visible;
+  text-align: center;
+  padding: 15%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  min-height: 1px;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border-radius: 50%;
+  border-style: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.testimonial-message {
+  margin: 0 0 25px;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+  font-weight: 200;
+  font-size: 18px;
+  color: #464646;
+  text-align: center;
+}
+.page-heading {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  overflow-wrap: break-word;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  text-align: center;
+}
+.page-subtitle3 {
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+  color: #ed2d34;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-name {
+  font-size: 20px;
+  font-weight: normal;
+  color: #464646;
+  font-family: "Roboto", sans-serif;
+}
+#testimonialPage.content {
+  max-width: 1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.icon-quotes {
+  font-size: 24px;
+  transition: 0.2s;
+  cursor: pointer;
+  line-height: 1.3;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+.fas {
+  color: #c6c6c6;
+  font-weight: 900;
+  display: inline;
+  font-family: "Font Awesome 5 Free";
+}
+
+.pp-tableCell {
+  padding-top: 20vh;
+}
+
+#testimonialPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
